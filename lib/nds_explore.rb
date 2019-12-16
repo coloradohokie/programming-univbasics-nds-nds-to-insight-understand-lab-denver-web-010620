@@ -10,8 +10,8 @@ def pretty_print_nds(nds)
   nil
 end
 
-def print_first_directors_movie_titles
+def print_first_directors_movie_titles(nds)
   
 end
 
-pretty_print_nds(directors_database)
+#pretty_print_nds(directors_database)
