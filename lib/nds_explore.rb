@@ -15,11 +15,9 @@ def print_first_directors_movie_titles
   director = 0
   x = 0
   while x < directors_database[director][:movies].length do
-#    movie_titles[x] = nds[director][:movies][x][:title]
     p directors_database[director][:movies][x][:title]
     x += 1
   end
-#  return movie_titles
 end
 
-#print_first_directors_movie_titles(directors_database)
+print_first_directors_movie_titles
