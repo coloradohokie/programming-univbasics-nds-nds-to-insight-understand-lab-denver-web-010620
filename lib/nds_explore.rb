@@ -18,7 +18,7 @@ def print_first_directors_movie_titles(nds)
     movie_titles[x] = nds[director][:movies][x][:title]
     x += 1
   end
-  pp movie_titles
+  return movie_titles
 end
 
 print_first_directors_movie_titles(directors_database)
