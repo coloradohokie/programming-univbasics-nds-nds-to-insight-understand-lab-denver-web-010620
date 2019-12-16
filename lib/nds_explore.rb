@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
   nil
 end
 
-def print_first_directors_movie_titles(nds)
+def print_first_directors_movie_titles
   movie_titles = []
   director = 0
   x = 0
@@ -22,4 +22,4 @@ def print_first_directors_movie_titles(nds)
 #  return movie_titles
 end
 
-print_first_directors_movie_titles(directors_database)
+#print_first_directors_movie_titles(directors_database)
